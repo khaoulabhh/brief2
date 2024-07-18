@@ -24,6 +24,12 @@ app.get('/phase', (req, res) => {
         title: 'About Us'
     });
 });
+app.get('/type', (req, res) => {
+    res.render('type', {
+        title: 'About Us'
+    });
+});
+
 
 // Start the server
 const port = process.env.PORT || 3000;
