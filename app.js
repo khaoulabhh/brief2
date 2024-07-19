@@ -29,6 +29,17 @@ app.get('/type', (req, res) => {
         title: 'About Us'
     });
 });
+app.get('/stade', (req, res) => {
+    res.render('stade', {
+        title: 'About Us'
+    });
+});
+app.get('/index', (req, res) => {
+    res.render('index', {
+        title: 'About Us'
+    });
+});
+
 
 
 // Start the server
