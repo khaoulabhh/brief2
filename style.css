@@ -298,12 +298,49 @@ h5{
   text-align: center;
   color: whitesmoke;
   position: relative;
+  margin-top:35px ;
+}.p {
+  margin: 60px;
 }
-.l1{
-  /* background-color: #52A063; */
-  background-color: red;
-  height: 100px;
-  margin: 10px  ;
+/* .l1{
+  background-color: #52A063;
+  height: 70px;
+  width: 1300px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+} */
+.agd_top_top{
+  background-color: #52A063;
+  height: 70px;
+  padding: 25px;
+  text-align: center;
+}
 
+.agd_contenu .agd_mois{
+  margin-bottom:5px;
+}
+.agd_mois{
+  background-color: #91ea89;
+  margin: 2px;
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+  
+}
+.collr{
+  padding: 5px;
 
 }
+
+.agd_contenu {
+  /* margin-left: 10px; */
+  background-color: #849c86;
+  height: 300px;
+  padding: 10px;
+}
+.agd_contenu1 {
+background-color: #438356;
+padding: 10px ;
+height: 300px;
+} 
