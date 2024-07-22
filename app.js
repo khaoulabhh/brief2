@@ -39,7 +39,7 @@ app.get('/index', (req, res) => {
         title: 'About Us'
     });
 });
-
+    
 
 
 // Start the server
