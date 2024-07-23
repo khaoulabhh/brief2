@@ -121,7 +121,7 @@ h1{
   display: flex; 
  justify-content: space-around; 
  margin-top: 15px;
- background-color: rgb(158, 206, 164);
+ /* background-color: rgb(158, 206, 164); */
 }
 
 .photo {
@@ -140,63 +140,13 @@ h1{
 .map {
 text-align: center;
 }
-.page2 {
-  margin-top: 25px;
-  background-color: rgb(242, 246, 243);
-  width: 100%;
-  height: 50vh;
-  display: grid;
-  place-content: center;
-  backdrop-filter: blur;
-  font-size: 20px;
-  position: relative;
+h2{
+  color:#34bd5d;
+  font-size: 35px;
+  margin: 40px;
+  margin-left: 110px;
+  text-transform:uppercase ;
 }
-.page3 {
-  margin-top: 25px;
-  background-color: rgb(191, 215, 197);
-  width: 100%;
-  height: 50vh;
-  display: grid;
-  place-content: center;
-  backdrop-filter: blur;
-  font-size: 20px;
-  position: relative;
-}
-
-/* .container2 {
-  background-color: hsl(0, 0%, 100% /.2);
-  text-align: justify;
-  color: black;
-  max-width: 55vw;
-  border: 1px solid hsl(0, 0%, 100%/.2);
-  padding: 1rem;
-  font-size: clamp(23px, 5vmax, 20px);
-  line-height: 1,2;
-  text-align: justify;
-  border-radius: 20px;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  height: auto;
-
-}
-.container3 {
-  background-color: hsl(0, 0%, 100% /.2);
-  text-align: justify;
-  color: black;
-  max-width: 55vw;
-  border: 1px solid hsl(0, 0%, 100%/.2);
-  padding: 1rem;
-  font-size: clamp(23px, 5vmax, 20px);
-  line-height: 1,2;
-  text-align: justify;
-  border-radius: 20px;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  height: auto;
-
-} */
 
 .bttn {
 
@@ -540,4 +490,8 @@ height: 300px;
 }
 .hcf-transform:hover {
   transform: scale3d(1.02, 1.02, 1.02);
+}
+.video-container {
+  max-width: 800px; /* Largeur maximale de la vidéo */
+  margin: 20px auto;   /* Centrer la vidéo */
 }
