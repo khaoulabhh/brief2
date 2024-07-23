@@ -39,6 +39,10 @@ app.get('/index', (req, res) => {
         title: 'About Us'
     });
 });
+function toggleTheme() {
+    const body = document.body;
+    body.classList.toggle('night-theme');
+}
     
 
 
