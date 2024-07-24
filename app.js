@@ -38,7 +38,12 @@ app.get('/index', (req, res) => {
     res.render('index', {
         title: 'About Us'
     });
-});
+ });
+ app.get('/agenda', (req, res) => {
+    res.render('agenda', {
+        title: 'About Us'
+    });
+ });
 function toggleTheme() {
     const body = document.body;
     body.classList.toggle('night-theme');

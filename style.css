@@ -13,14 +13,14 @@ body {
 }
 .day-theme {
   background-color: #ffffff;
-  color: #000000;
+  color: #313030;
 }
 .night-theme {
-  background-color: #222222;
+  background-color: #313030;
   color: #ffffff;
 }
 .day-theme p {
-  color: #000000; /* Couleur du texte pour le thème jour */
+  color: #313030; /* Couleur du texte pour le thème jour */
 }
 
 .night-theme p {
@@ -107,9 +107,9 @@ body {
 }
 h1{
   text-align: center;
-  margin-top: 5%;
+  margin-top: 2%;
   color: #366a46;
-  padding: 55px;
+  padding: 26px;
 }
 .para1 {
   text-align: center;
@@ -121,7 +121,7 @@ h1{
   display: flex; 
  justify-content: space-around; 
  margin-top: 15px;
- /* background-color: rgb(158, 206, 164); */
+ background-color: rgb(158, 206, 164);
 }
 
 .photo {
@@ -250,9 +250,9 @@ h5{
   content: '';
   position: absolute;
   left: 0;
-  bottom: -5px; 
+  bottom: -1px; 
   width: 100%;
-  height: 9%; 
+  height: 6%; 
   background-color: #34bd5d;  
 }
 
@@ -307,7 +307,6 @@ padding: 10px ;
 height: 300px;
 } 
 /* ************** les stades */
-
 .gx-6 {
   --bs-gutter-x: 4.5rem;
 }
@@ -366,123 +365,124 @@ height: 300px;
   }
 }
 .mb-6 {
-  margin-bottom: 4.5rem !important;
+  margin-bottom: 4.5rem;
 }
 .py-6 {
-  padding-top: 4.5rem !important;
-  padding-bottom: 4.5rem !important;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 .top-5px {
-  top: 5px !important;
+  top: 5px;
 }
 .top-10px {
-  top: 10px !important;
+  top: 10px;
 }
 .bottom-5px {
-  bottom: 5px !important;
+  bottom: 5px;
 }
 .bottom-10px {
-  bottom: 10px !important;
+  bottom: 10px;
 }
 .start-5px {
-  left: 5px !important;
+  left: 5px;
 }
 .start-10px {
-  left: 10px !important;
+  left: 10px;
 }
 .end-5px {
-  right: 5px !important;
+  right: 5px;
 }
 .end-10px {
-  right: 10px !important;
+  right: 10px;
 }
 .hcf-of-cover {
-  object-fit: cover !important;
+  object-fit: cover;
 }
 .hcf-op-center {
-  object-position: center !important;
+  object-position: center;
 }
 .hcf-ih-250 {
-  height: 250px !important;
+  height: 250px;
 }
 .hcf-ih-400 {
-  height: 400px !important;
+  height: 400px;
 }
 @media (min-width: 576px) {
   .mb-sm-6 {
-    margin-bottom: 4.5rem !important;
+    margin-bottom: 4.5rem;
   }
   .py-sm-6 {
-    padding-top: 4.5rem !important;
-    padding-bottom: 4.5rem !important;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
   }
   .hcf-ih-sm-250 {
-    height: 250px !important;
+    height: 250px;
   }
   .hcf-ih-sm-400 {
-    height: 400px !important;
+    height: 400px;
   }
 }
 @media (min-width: 768px) {
   .mb-md-6 {
-    margin-bottom: 4.5rem !important;
+    margin-bottom: 4.5rem;
   }
   .py-md-6 {
-    padding-top: 4.5rem !important;
-    padding-bottom: 4.5rem !important;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
   }
   .hcf-ih-md-250 {
-    height: 250px !important;
+    height: 250px;
   }
   .hcf-ih-md-400 {
-    height: 400px !important;
+    height: 400px;
   }
 }
 @media (min-width: 992px) {
   .mb-lg-6 {
-    margin-bottom: 4.5rem !important;
+    margin-bottom: 4.5rem;
   }
   .py-lg-6 {
-    padding-top: 4.5rem !important;
-    padding-bottom: 4.5rem !important;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
   }
   .hcf-ih-lg-250 {
-    height: 250px !important;
+    height: 250px;
   }
   .hcf-ih-lg-400 {
-    height: 400px !important;
+    height: 400px;
   }
 }
 @media (min-width: 1200px) {
   .mb-xl-6 {
-    margin-bottom: 4.5rem !important;
+    margin-bottom: 4.5rem;
   }
   .py-xl-6 {
-    padding-top: 4.5rem !important;
-    padding-bottom: 4.5rem !important;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
   }
   .hcf-ih-xl-250 {
-    height: 250px !important;
+    height: 250px;
   }
   .hcf-ih-xl-400 {
-    height: 400px !important;
+    height: 400px;
   }
 }
 @media (min-width: 1400px) {
   .mb-xxl-6 {
-    margin-bottom: 4.5rem !important;
+    margin-bottom: 4.5rem;
   }
   .py-xxl-6 {
-    padding-top: 4.5rem !important;
-    padding-bottom: 4.5rem !important;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
   }
   .hcf-ih-xxl-250 {
-    height: 250px !important;
+    height: 250px;
   }
   .hcf-ih-xxl-400 {
-    height: 400px !important;
+    height: 400px;
   }
 }
+/************** */
 .hcf-transform {
   transform: scale3d(1, 1, 1);
   transform-style: preserve-3d;
@@ -495,3 +495,26 @@ height: 300px;
   max-width: 800px; /* Largeur maximale de la vidéo */
   margin: 20px auto;   /* Centrer la vidéo */
 }
+.para {
+  font-size: 29px;
+  margin: 20px;
+  text-align: center;
+  color: #2d5e37;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.last img {
+  width: 20%;
+  margin-left: 80px;
+  border-radius: 50px;
+  /* margin-top:90px ; */
+}
+
+.content{
+  display: flex;
+  margin: 50px;
+  align-items: center; 
+}
+
