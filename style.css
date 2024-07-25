@@ -69,7 +69,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
   padding: 50px 0;
 }
 
@@ -229,8 +229,8 @@ h5{
 .picstade {
   justify-content: space-between;
   margin: 10px;
-  width: 30%;
-   border-radius: 98%;
+  width: 27%;
+  border-radius: 5%;
 }
 
 .card-img-top {
