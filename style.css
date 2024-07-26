@@ -262,7 +262,8 @@ h5{
   color: whitesmoke;
   position: relative;
   margin-top:35px ;
-}.p {
+}
+ .p {
   margin: 60px;
 }
 /* .l1{
@@ -319,7 +320,7 @@ height: 300px;
   .gx-sm-6 {
     --bs-gutter-x: 4.5rem;
   }
-  .g-sm-6,
+  .g-sm-6,  
   .gy-sm-6 {
     --bs-gutter-y: 4.5rem;
   }

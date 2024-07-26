@@ -14,7 +14,7 @@
   }
   
   input {
-    outline: none !important;
+    outline: none ;
   }
   
   h1 {
